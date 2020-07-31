@@ -1,0 +1,30 @@
+{
+  "name": "escalama-action",
+  "version": "0.0.0",
+  "description": "experimenting with github actions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tEErohr/escalama-action.git"
+  },
+  "keywords": [],
+  "author": "Matthias Buchholz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tEErohr/escalama-action/issues"
+  },
+  "homepage": "https://github.com/tEErohr/escalama-action#readme",
+  "devDependencies": {
+    "@types/eslint": "^7.2.0",
+    "@types/node": "^14.0.27",
+    "eslint": "^7.5.0",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/github": "^4.0.0"
+  }
+}

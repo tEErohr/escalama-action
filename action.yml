@@ -1,0 +1,17 @@
+name: 'Escalama Action'
+description: 'Escalate tech dept across deployments'
+inputs:
+  linter-config-path: # id of input
+    description: 'path to config file of linter'
+    required: false
+    default: '.eslintrc.js'
+  linter-include-pattern: # id of input
+    description: 'glob pattern to include files'
+    required: false
+    default: '.'
+outputs:
+  issues: # id of output
+    description: 'Formatted list of issues'
+runs:
+  using: 'node12'
+  main: 'index.js'
